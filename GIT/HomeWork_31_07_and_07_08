@@ -1,0 +1,96 @@
+# 🧠 Git — Homework 05.10
+
+> Practical tasks on Git fundamentals, repository management, and GitHub integration.  
+> Based on three self-study assignments from IT STEP Academy.
+
+---
+
+## 📘 Overview
+
+This folder contains my **Git practical assignments (1–3)** completed on **05.10**.  
+The goal is to understand Git setup, repository initialization, file tracking, commit workflow, and GitHub publishing using both **CLI** and **GitHub Desktop**.
+
+---
+
+## 🧩 Assignment Structure
+
+### 🧱 Task 1 — Git Installation and Configuration
+- Install Git for your OS:  
+  - **Windows:** [git-scm.com/download/win](https://git-scm.com/download/win)  
+  - **Linux/macOS:** use package manager or [git-scm.com/download](https://git-scm.com/)
+- Verify installation with `git --version`
+- Configure username and email:
+  ```bash
+  git config --global user.name "Your Name"
+  git config --global user.email "your@email.com"
+  git config --global --list
+Create a test folder MyGitTest, navigate into it, and initialize Git:
+
+git init
+
+
+Verify the hidden .git folder exists.
+
+📂 Task 2 — Repository Initialization and File Operations
+
+Create folder Texts and initialize Git repo (git init).
+
+Add initial files:
+
+roosevelt.txt → A selfish victory is always destined to be an ultimate defeat.
+
+franklin.txt → No gains without pains.
+
+Stage and commit:
+git add .
+git commit -m "Add roosevelt.txt franklin.txt with initial content"
+Add new files:
+
+tolkien.txt, shakespeare.txt, thomas.txt
+
+Commit: "Add tolkien.txt, shakespeare.txt, and thomas.txt with quotes"
+
+Edit franklin.txt, add:
+
+bash
+Copy code
+Well done is better than well said.
+and commit the update.
+
+🌐 Task 3 — GitHub & GitHub Desktop
+Create a GitHub account and confirm email.
+
+Create a new repository via the GitHub web interface and upload a file.
+
+Locally:
+
+bash
+Copy code
+git init
+echo "Well done is better than well said." > franklin.txt
+git add franklin.txt
+git commit -m "Add franklin.txt with quote"
+Modify, commit, and view log:
+
+bash
+Copy code
+git add franklin.txt
+git commit -m "Add second quote to franklin.txt"
+git log --oneline
+Restore a previous version with git restore --source=<hash> franklin.txt
+
+Practice multiple commits with inspiration.txt
+
+Use GitHub Desktop to publish the local repo.
+
+Create a new repo directly in GitHub Desktop, add readme.txt, publish, and verify.
+
+Add doyle.txt with two quotes and push to GitHub.
+
+🧾 Deliverables
+Screenshots of terminal/GitHub Desktop commands and results.
+
+Repository structure and commit logs.
+
+(Screenshots will be added manually.)
+
