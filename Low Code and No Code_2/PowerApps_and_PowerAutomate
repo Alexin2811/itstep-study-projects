@@ -1,0 +1,71 @@
+💡 Overview
+
+This repository contains practical assignments for Microsoft Power Apps and Microsoft Power Automate.
+Each project demonstrates the creation of simple yet functional automation and app-building solutions within the Microsoft ecosystem.
+
+📘 1. Power Automate Task
+
+Goal:
+Create an automated solution for registering conference participants using Microsoft Power Automate, Microsoft Forms, and Microsoft Teams.
+
+Steps:
+
+Create a registration form with the following fields:
+
+Name and Surname
+
+City
+
+Profession
+
+Create a new Team in Microsoft Teams.
+Set up a channel for posting registration information.
+
+In Power Automate, create a flow triggered by a form submission.
+The flow must post a message in the Teams channel including:
+
+Participant Name
+
+City
+
+Profession
+
+Result:
+Attach screenshots of the working flow and Teams messages.
+
+📄 File: Power Automate task 2.0.0.docx
+
+📗 2. Power Apps Tasks
+🟦 First Task: Hello World Canvas App
+
+Create a simple Canvas App that displays a greeting.
+
+Add a Label with the text “Hello, World!”
+
+Set screen background to light blue and text color to dark blue
+
+📄 File: Power Apps first task 2.0.0
+
+🟩 Second Task: Name and City Info App
+
+Build a form with two input fields — Name and City.
+When the user clicks "Show Info", a popup (Notify) displays the entered data.
+
+Example output:
+Name: John, City: Kyiv
+
+📄 File: Power Apps second task 2.0.0
+
+🟨 Third Task: Unit Converter App
+
+Create a unit conversion app that can convert:
+
+Length: Meters → Kilometers
+
+Weight: Grams → Kilograms
+
+Temperature: Celsius → Fahrenheit
+
+The result should appear instantly after pressing the corresponding button.
+
+📄 File: Power Apps third task 2.0.0
