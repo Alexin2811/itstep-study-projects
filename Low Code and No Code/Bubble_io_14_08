@@ -1,0 +1,84 @@
+🧩 No-Code Practical Tasks
+
+Platform: Bubble.io
+
+Author: Alexei
+
+📘 Part 1: Basic Bubble.io Skills
+
+Task 1: Registration on Bubble.io
+
+Go to bubble.io
+
+Click Get Started and complete the registration form
+
+After successful registration, open your main account page
+📸 Make a screenshot showing your username/account confirmation
+
+Task 2: Create a “Participant Registration” Form
+
+Create a new project in Bubble.io
+
+Add the following input fields:
+
+FullNameInput → Label: “Full Name”
+
+EmailInput → Label: “Email Address”
+
+Add a Dropdown (ComboBox) named EventTypeDropdown → Label: “Event Type”
+
+Add options: Workshop, Webinar, Hackathon
+
+Arrange all elements neatly on the page
+📸 Preview and make a screenshot of your form
+
+Task 3: Automatic Data Display
+
+Add inputs:
+
+CityInput (“City”)
+
+CountryInput (“Country”)
+
+Add text labels:
+
+CityLabel → Shows CityInput’s value dynamically
+
+CountryLabel → Shows CountryInput’s value dynamically
+
+FullLocationLabel → Combines City and Country:
+
+CityInput's value CountryInput's value
+
+The text in labels should update live, without page reload
+📸 Preview, enter test data and make screenshots of the live result
+
+📗 Part 2: Calculator App on Bubble.io
+
+Task 1: Create a Calculator App
+
+Build a simple calculator that:
+
+Takes two numeric inputs
+
+Performs addition (+), subtraction (-), and multiplication (*)
+
+Inputs must be of type Integer (set via Appearance → Content format → Integer)
+
+Add a Text element (non-editable) to show the result
+
+Use Custom State of type Number to ensure correct math operations
+📸 Provide screenshots showing the app working properly
+
+Task 2: Add MAX and MIN Buttons
+
+Extend your calculator by adding two buttons:
+
+max → Shows the larger number
+
+min → Shows the smaller number
+
+Use built-in Bubble functions max() and min()
+
+Display the result in the same text field
+📸 Provide screenshots showing how both functions work
