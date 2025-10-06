@@ -1,0 +1,64 @@
+# AWS IAM Practical Assignment — Solutions and Screenshots  
+*(Практическое задание по AWS IAM — Решения и Скриншоты)*
+
+---
+
+## 🇬🇧 ENGLISH VERSION
+
+### 🧩 Overview
+
+This folder contains my completed practical work based on the **“AWS IAM Practical Assignment”**.  
+All steps were performed in the **AWS Management Console**, following the official instructions.
+
+---
+
+### 🧠 What I learned
+
+During this practical assignment, I have learned to:
+
+- navigate the **AWS Management Console** and locate services;  
+- create and manage **IAM users, groups, and policies**;  
+- apply the **principle of least privilege** when assigning permissions;  
+- use **IAM policies** such as `IAMReadOnlyAccess` and `AdministratorAccess`;  
+- verify access rights by logging in under restricted users;  
+- configure **Multi-Factor Authentication (MFA)** for the root account to improve security.
+
+---
+
+### 🧩 Assignment summary
+
+#### **Task 1 — Creating the First IAM User**
+- Created user **student1** with console access and password reset enabled.  
+- Verified successful login with minimal permissions.  
+📸 *Screenshots:*  
+`user_list.png`, `student1_login.png`
+
+---
+
+#### **Task 2 — Creating a Group and Assigning a Policy**
+- Created group **ReadOnlyGroup** with `IAMReadOnlyAccess` policy.  
+- Added **student1** to this group and confirmed limited access.  
+📸 *Screenshots:*  
+`readonly_group.png`, `student1_in_group.png`, `restricted_access.png`
+
+---
+
+#### **Task 3 — Managing Multiple Users and Groups**
+- Created users **admin1**, **user1**, **user2**, **user3**.  
+- Created groups **Admins** (`AdministratorAccess`) and **ReadOnlyUsers** (`IAMReadOnlyAccess`).  
+- Assigned users accordingly and verified their permissions.  
+📸 *Screenshots:*  
+`all_users.png`, `admins_group.png`, `readonlyusers_group.png`, `users_in_groups.png`
+
+---
+
+#### **Task 4 — Configuring MFA for the Root Account**
+- Enabled **Multi-Factor Authentication (MFA)** using Google Authenticator.  
+- Confirmed activation in AWS Security Credentials.  
+📸 *Screenshot:*  
+`mfa_enabled.png`
+
+---
+All tasks were performed manually in the AWS Free Tier environment.  
+Screenshots confirm successful execution of all steps and security configurations
+
