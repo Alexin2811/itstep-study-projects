@@ -1,0 +1,164 @@
+AI Practical #4 — Marvel Character Article & Quiz | EN ⇄ RU
+📘 Project Overview
+
+EN:
+This README documents the results for the “Fourth practical task in AI.” The assignment requires using a generative AI tool (e.g., ChatGPT or Gemini) to:
+
+Write an article about any Marvel character based strictly on that character’s Wikipedia page.
+
+Explicitly define the article’s structure (headings, paragraph counts, etc.) and target audience.
+
+Use the monologue format where the character speaks about themselves.
+
+Perform a quality check after generation and, if quality is poor, create a revised version.
+
+Create an English quiz based on the Wikipedia article with a limited number of questions, including: single-answer multiple choice, multiple-answer multiple choice, and true/false. Define the number of options and the correctness criteria, then quality-check and iterate if needed. 
+
+AI fourth 4.0.0
+
+RU:
+Этот README фиксирует результаты «Четвертого практического задания по AI». По заданию требуется, используя инструмент генеративного ИИ (например, ChatGPT или Gemini):
+
+Написать статью о любом персонаже Marvel строго по его странице в Wikipedia.
+
+Явно определить структуру статьи (заголовки, количество параграфов и т. д.) и целевую аудиторию.
+
+Использовать формат монолога, где персонаж рассказывает о себе.
+
+Провести проверку качества после генерации и при необходимости создать улучшенную версию.
+
+Создать англоязычный квиз по статье из Wikipedia с ограниченным числом вопросов, включив: множественный выбор с одним верным ответом, множественный выбор с несколькими верными ответами и истина/ложь. Определить количество вариантов и критерии правильности, затем проверить качество и при необходимости проитерироваться. 
+
+AI fourth 4.0.0
+
+🧠 What I Learned
+
+EN:
+
+How to constrain AI-generated content strictly to a primary source (Wikipedia) and reflect that constraint in structure and tone.
+
+How to specify and validate quiz formats: single-answer MCQ, multiple-answer MCQ, and T/F with explicit correctness rules.
+
+How to apply an iterative “generate → review → refine” loop to improve article and quiz quality within assignment limits.
+
+RU:
+
+Как ограничивать ИИ-контент строго первоисточником (Wikipedia) и удерживать эту рамку в структуре и тоне.
+
+Как задавать и проверять форматы квиза: одиночный выбор, множественный выбор и истина/ложь с явными правилами корректности.
+
+Как применять итерационный цикл «сгенерировать → проверить → доработать» для улучшения качества статьи и квиза в пределах задания.
+
+🧩 Task 1 — Article Generation (Monologue)
+
+EN:
+Goal: Create a first-person monologue article about a chosen Marvel character using only facts from the character’s Wikipedia page. Include a clearly declared structure and target audience. 
+
+AI fourth 4.0.0
+
+Actions performed:
+
+Selected a Marvel character and located their official Wikipedia page.
+
+Planned the article skeleton:
+
+Title hierarchy (H1–H3),
+
+Number of sections and paragraphs per section,
+
+Tone: first-person monologue,
+
+Target audience definition.
+
+Prompted a generative AI tool with: source constraint (Wikipedia only), structure, audience, and monologue requirement.
+
+Performed a quality check: factual consistency with Wikipedia, clarity, cohesion, and style adherence.
+
+If quality was subpar, iterated with refined prompts and corrections per issues found.
+
+Screenshots:
+Необходимые отчеты вложены.
+
+RU:
+Цель: Создать статью-монолог от первого лица о выбранном персонаже Marvel, используя только факты со страницы персонажа в Wikipedia. Указать явную структуру и целевую аудиторию. 
+
+AI fourth 4.0.0
+
+Выполненные действия:
+
+Выбрали персонажа Marvel и нашли его официальную страницу в Wikipedia.
+
+Спроектировали «скелет» статьи:
+
+Иерархия заголовков (H1–H3),
+
+Количество разделов и параграфов в каждом,
+
+Тон: монолог от первого лица,
+
+Определение целевой аудитории.
+
+Сформилили промпт для инструмента ИИ с ограничением источника (только Wikipedia), структурой, аудиторией и требованием монолога.
+
+Провели проверку качества: фактологическая точность по Wikipedia, ясность, связность и соблюдение стиля.
+
+При недостаточном качестве провели итерацию с уточненным промптом и исправлениями по найденным проблемам.
+
+Скриншоты:
+Необходимые отчеты вложены.
+
+🧩 Task 2 — English Quiz Creation
+
+EN:
+Goal: Build an English quiz about the same character based on the Wikipedia article, with a limited number of questions spanning three types:
+
+Multiple choice (single correct),
+
+Multiple choice (multiple correct),
+
+True/False.
+Define the number of options and how correctness is determined, then review and revise for quality. 
+
+AI fourth 4.0.0
+
+Actions performed:
+
+Extracted key facts from the Wikipedia-based article.
+
+Designed the quiz blueprint: question count cap; distribution across the three required types; per-question option counts; correctness rules.
+
+Prompted AI to generate the quiz according to the blueprint.
+
+Validated answers strictly against the Wikipedia source; corrected any drift.
+
+If quality issues were found, regenerated or edited items and re-validated.
+
+Screenshots:
+Необходимые отчеты вложены.
+
+RU:
+Цель: Создать англоязычный квиз по тому же персонажу на основе статьи из Wikipedia с ограниченным числом вопросов трех типов:
+
+Множественный выбор с одним правильным ответом,
+
+Множественный выбор с несколькими правильными ответами,
+
+Истина/ложь.
+Определить количество вариантов и правила правильности, затем проверить и при необходимости доработать. 
+
+AI fourth 4.0.0
+
+Выполненные действия:
+
+Извлекли ключевые факты из статьи на базе Wikipedia.
+
+Спроектировали схему квиза: лимит количества вопросов; распределение по трем типам; число вариантов в вопросах; правила корректности.
+
+Сгенерировали квиз согласно схеме.
+
+Валидировали ответы строго по источнику Wikipedia и исправили расхождения.
+
+При обнаружении проблем качества перегенерировали или отредактировали вопросы и повторно проверили.
+
+Скриншоты:
+Необходимые отчеты вложены.
